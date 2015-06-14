@@ -1,0 +1,120 @@
+body {
+	background: #62B5AE;
+	text-align: center;
+}
+ul, li {
+	list-style-type: none;
+}
+ul, span, a, div {
+	color: #00332F;
+}
+.sub-headline {
+	font-weight: bold;
+}
+.wrapper { 
+	width: 750px;
+	margin: 0 auto;	
+	background-color: #33A096;
+	box-shadow: 0px 0px 5px 5px #005b51;
+	min-height: 100%;
+	padding: 30px;
+	text-align: left;
+	display: inline-block;
+}
+
+.side-bar {
+	width: 30%;
+	border-left: 2px solid rgba(24,58,52,.3);
+	border-radius: 11px;
+	float: right;
+	margin: 25px 0;
+	min-height: 200px;
+}
+
+.content {
+	width: 68%;
+	margin: 25px 0;
+	display: inline-block;
+	float: left;	
+	background: #CFEAE8;
+	border-radius: 10px;
+	min-height: 200px;
+}
+
+.greeting, .log-out {
+	float: right;
+	margin: 0 5px;
+}
+.topDiv {
+	height: 150px;
+	width:  760px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	margin: 0px auto 0px;
+	border-bottom: 3px solid white;
+}
+.topDiv .logo {
+	color: #fff;
+	margin-top: 42px;
+	display: inline-block;
+	font-size: 30px;
+	font-family: cursive;
+	text-transform: capitalize;
+}
+
+.user-block {
+	float: right;
+	margin-top: 20px;
+
+}
+input[type=button], input[type=submit],
+input.btn {
+	background: #005b51;
+	color: #fff;
+	border: 3px solid #92A2A1;
+	border-radius: 6px;
+} 
+
+.title {
+ 	}
+.fullArtsDivs {
+	margin: 4px 4px 4px;
+	padding: 5px;
+	box-shadow: 0px 0px 10px 0px width;
+	border-radius: 10px;
+}
+.fullArtsDivs:hover .title {
+	font-weight: bold;
+}
+.fullArtsDivs:hover {
+	/*box-shadow: 0px 0px 15px 8px #33FFFF;*/
+	/*font-size: 18px;*/
+}
+a { 
+    text-decoration: none;
+}
+textarea {
+	width: 300;
+	height: 100;
+}
+.fullArtsDivsConteiner {
+	/*height: 100px;*/
+}
+
+.addArticle {
+	margin: 10px auto 10px;
+	height-min: 30px;
+	padding: 10px;
+	width: 97%;
+	border-radius: 3px;
+}
+.date {
+	text-align: right;
+}
+p {
+	font-style: italic;
+	margin: 5px;
+}
+.comment {
+	font-size: 13px;
+}
